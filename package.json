@@ -1,0 +1,40 @@
+{
+  "name": "silver-bars",
+  "version": "1.0.0",
+  "description": "Silver bar marketplace",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha ./test/*.test* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaviGalindo/silver-bars.git"
+  },
+  "author": "JaviGalindo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaviGalindo/silver-bars/issues"
+  },
+  "homepage": "https://github.com/JaviGalindo/silver-bars#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "express": "^4.16.4",
+    "jshint": "^2.10.1",
+    "mocha": "^5.2.0",
+    "mongodb-memory-server": "^3.0.0",
+    "mongoose": "^5.4.11",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
